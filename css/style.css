@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+    background-image: url(../img/images\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center; 
+  
+}
+a{
+    color: #fff;
+}
+.sec{
+    width: 440px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid gray;
+    border-radius: 4px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.from_box{
+    width: 100%;
+    padding: 40px;
+    position: relative;
+}
+.from_box1{
+   
+}
+.from_box1 h2{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+.input_bx{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;
+    position: relative;
+}
+
+/*.input_bx input{
+   width: 100%;
+   height: 100%;
+   background: transparent;
+   border: none;
+   outline: none;
+ } */
+.input_bx label{
+    position: absolute;
+    top: 50%; 
+    left: 25px;
+    transform: translate(-50%);
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+    pointer-events: none;
+    /* transition: .6s; */
+
+}
+.input_bx input:focus~label,
+.input_bx input:valid~label{
+    top: -5px;
+}
+
+.input_bx input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: #fff;
+    padding: 0px 10px;
+ }
+.input_bx .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 57px;
+}
+    
+.remember{
+    font-size: .9rem;
+    color: #fff;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remember a{
+    text-decoration: none;
+    color-scheme: #162938;
+}
+button{
+    width: 100%;
+    height: 45px;
+    background-color: #503c3c;
+    /* margin: auto; */
+    /* text-align: center; */
+    /* align-items: center; */
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.register_1{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: #fff;
+}
+
+
